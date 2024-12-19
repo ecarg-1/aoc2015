@@ -35,7 +35,6 @@ def repl(molecule_list):
 change_molecules = repl(molecule_list)
 print(len(set(change_molecules))) #part 1
 
-from random import shuffle
 import re
 def idk(m):
     count = 0
