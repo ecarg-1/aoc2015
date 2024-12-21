@@ -4,7 +4,6 @@ from operator import mul
 with open('input.txt', 'r') as f:
     weights = [int(line.strip('\n')) for line in f.readlines()]
     f.close()
-
 total_weight = sum(weights)
 #math works out so that given compartment 1 = goal weight, the oher compartments can be made the goal weight as well
 def find_qe(compartments):
